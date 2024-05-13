@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100vh;
+    position: relative; 
+    background-image: url('./images/hero.png');
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+    font-size: 20px;
+
+    align-items: center;
+   
+}
+.links{
+    display: flex;
+    gap: 30px;
+    
+    }
+    .links a , .login a {
+        text-decoration: none;
+        color: white;
+    }
+    .login button{
+        background-color: #23a6f0;
+        border-style: none;
+        padding: 10px 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .arrow{
+        color : white;
+    }
+    .intro{
+        display: flex;
+        height: 90vh;
+        align-items: center; 
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .intro-container h1{
+        font-weight: 800;
+        font-size: 50px;
+    }
+    .intro-container p{
+       
+        font-size: 20px;
+    }
+    
+    .intro-btn{
+        display: flex;
+        gap:10px;
+    
+    }
+    .btn1{
+        padding: 10px 30px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: #23a6f0;
+        color: white;
+        font-size: 20px;
+     
+     }
+     
+     .btn2{
+         border-radius: 20px;
+         background-color: transparent;
+         font-size: 20px;
+         color: white;
+        padding: 10px 30px;
+         border:  2px solid white;
+         font-weight: bold;
+         
+         
+     }
+     .people{
+         color: #23a6f0;
+         width: 50px;
+         height: 50px;
+     }
+     
+     .people1{
+         color: white;
+         width: 50px;
+         height: 50px;
+     }    
+     .cards{
+        display: flex;
+        justify-content: center;
+         gap: 20px;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right:0;
+         transform: translateY(50%);
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+         gap:5px;
+         background-color: white;
+        
+        width: 250px;
+        height: 150px;
+        padding: 20px;
+    }    
+    .card2{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        width: 250px;
+        height: 150px;
+        padding: 20px;
+        background-color: white;
+    }
+    .card3{
+        display: flex;
+        flex-direction: column;
+         gap:5px;
+         overflow: hidden;
+        background-color: #23a6f0;
+         color: white;
+        width: 250px;
+        height: 150px;
+        padding: 20px;
+    }
+    body{
+        background-color: #fbfcfb;
+    }
+    .section2{
+        margin-top: 200px;
+        background-color: #fff;
+        color:black;
+        display: flex;
+        justify-content: space-evenly;
+        gap:50px;
+        height:40vh;
+        align-items: center;
+    
+    }
+    .child1 p, .child2 p , .child3 p{
+        color: gray;
+    }
+    .child1 h2, .child2 h2 , .child3 h2{
+      font-weight: 500;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+        color: #23a6f0;
+    }
+    .section3{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 20px;
+    
+    }
+    .section3_container{
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+       align-items: center;
+    
+    }
+    .section3_container h1{
+        font-size: 50px;
+    }
+    .sectioncard1 img, .sectioncard2 img, .sectioncard3 img{
+        width: 100px;
+        height: 100px;
+    }
+    .sectioncard1 p, .sectioncard2 p, .sectioncard3 p{
+        color: gray;
+        }
+        .sectioncard1 , .sectioncard2 , .sectioncard3 {
+            padding: 15px;
+            width: 280px;
+            align-items: center;
+             background-color: white;
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+            }
+            .section3_part2{
+                display: flex;
+                gap:30px;
+                padding:10px
+            }
+            .star{
+                width: 20px;
+                height:20px;
+                color: orange;
+            }
+            .logos{
+                display: flex;
+                gap: 100px;
+            }
+            .log{
+                width: 70px;
+                height:70px;
+            }  
+            .subscribe{
+                height: 10vh;
+                width: 100%;
+                align-items: center;
+               display: flex;
+               justify-content: space-around;
+                background:linear-gradient(to right ,rgb(7, 7, 87), #b00cf4);
+                color: white;
+                font-size: 20px;
+            }
+            .form-subscribe{
+                display: inline-flex;
+            }
+            .form-subscribe input{
+                padding: 15px;
+                border-bottom-left-radius: 5px;
+                border-top-left-radius: 5px;
+                border-style: none;
+            }
+            .form-subscribe button{
+                padding: 15px 15px ;
+                background-color: #23a6f0;
+                border-style: none;
+                color: white;
+                font-style: bold;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius:5px;
+             } 
+             .section_pricing{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+            .pricing{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                 flex-direction: column;
+            }
+            .prices{
+                display: flex;
+            }
+            .price-cards{
+                display: flex;
+            }
+        .price-cards h1{
+            color: #23a6f0;
+        }
+        .price-cards1 , .price-cards3{
+            border: 1px solid #23a6f0;
+            width: 300px;
+            align-items: center;
+            display: flex;
+            border-radius: 10px;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 25px ;
+            margin-top: 30px;
+        }
+        .price-cards2 {
+            border: 1px solid #23a6f0;
+            width: 300px;
+            background-color: #252b42;
+             color: white;
+            align-items: center;
+            display: flex;
+            border-radius: 10px;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 25px ;
+        }
+        .prod{
+            display: flex;
+            gap: 20px;
+            width: 100%;
+          
+        }
+        .dolar{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .green{
+            color: green;
+            width: 20px;
+             height: 20px;
+        }
+        .gray{
+            color:gray;
+            width: 20px;
+            height: 20px;
+       }
+       .price-cards1 button , .price-cards2 button , .price-cards3 button{
+        padding:  20px 50px;
+        color: white;
+        background-color: #23a6f0;
+        font-size: 20px;
+        border-style: none;
+    }
+    .contact-container{
+        height: 60vh;
+        width: 80%;
+        background-color: #252b42; 
+        display: flex;
+        justify-content: center;
+        position: relative;
+    
+    }
+    .contact1{
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        
+    }
+    .contact-header{
+        width: 60%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .contact-img{
+        width: 40%;
+        height: 100%;
+        
+    }
+    .contact-img img{
+        background-image: url('./images/pingwig.png');
+        background-size: contain;
+         background-repeat: no-repeat;
+        height: 60%;
+        width: 100%;
+      
+    }
+    .contact-form2{
+        width: 600px;
+        height:500px;
+        display: flex;
+        gap: 20px;
+        background-color: white;
+        position: absolute;
+         transform: translateY(60%);
+    
+    }
+    .contact-form-img{
+        width: 40%;
+        height: 100%;
+        }
+        .contact-form-img img{
+            height: 100%;
+            width: 100%;
+        }
+        .contact-form-form{
+            width:40%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            }
+        .contact-form-form input , select{
+                padding: 15px;
+                background-color: #fbfcfb;
+                width: 100%;
+                border-style: 1px solid #fbfcfb;
+                border-radius: 10px;
+            }
+            .contact-form-form button{
+                background-color: #23a6f0;
+                color: white;
+                padding: 15px 60px;
+                border-style: none;
+                font-size: 20px;
+                border-radius: 10px;
+            }
+            .contact-4{
+                display: flex;
+                margin-top: 320px;
+                width: 80%;
+                justify-content: space-between;
+                color: black;
+                padding: 20px;
+                align-items: center;
+            }
+            .contact-4 button{
+                border-style: none;
+                padding: 10px 20px;
+                background-color: #23a6f0;
+                border-radius: 5px;
+                color: white;
+                 font-size:20px;
+            }
+            .footer{
+                display: flex;
+                margin-top: 50px;
+                width: 100%;
+                justify-content: space-between;
+                background-color: white;
+            }
+            .footer div{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .footer div a {
+                text-decoration: none;
+                 color: black;
+            }
+            .contact-icon{
+                color: #23a6f0;
+                width: 20px;
+                height: 20px;
+            }
+            .footer_last{
+                display: flex;
+               height: 5vh ;
+                width: 80%;
+                justify-content: space-between;
+            }
+            .footer_last div{
+                display: flex;
+                gap:10px
+            }                                
+
+              
